@@ -273,7 +273,7 @@ class S2_vn_rectangle(object):
         # /cloud function to remove clouds
 
         def S2_SR_CLOUD_PROBABILITY():
-            primaryFeatures = ee.ImageCollection("COPERNICUS/S2_SR")
+            primaryFeatures = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED")
             secondaryFeatures = ee.ImageCollection(
                 "COPERNICUS/S2_CLOUD_PROBABILITY")
             toyFilter = ee.Filter.equals(
@@ -486,7 +486,7 @@ class S2_vn_rectangle(object):
         # /cloud function to remove clouds
 
         def S2_SR_CLOUD_PROBABILITY():
-            primaryFeatures = ee.ImageCollection("COPERNICUS/S2_SR")
+            primaryFeatures = ee.ImageCollection("COPERNICUS/S2_SR_HARMONIZED")
             secondaryFeatures = ee.ImageCollection(
                 "COPERNICUS/S2_CLOUD_PROBABILITY")
             toyFilter = ee.Filter.equals(

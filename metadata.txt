@@ -7,7 +7,7 @@ name=Cloud removal from sentinel 2
 qgisMinimumVersion=3.0
 description=Sentinel 2 removed cloud and mosaic based on range date. Then using over the world by draw rectangle and vietnam administrative boundary to clip images.
 
-version=0.2
+version=0.4
 author=GFD
 email=hoa.lq@gfd.com.vn
 
@@ -21,7 +21,7 @@ repository=https://github.com/lequynhhoa/s2_download
 
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
-# changelog=version 0.1
+# changelog=version 0.3
 
 # Tags are comma separated with spaces allowed
 tags=gfd,vn,sentinel2,s2,vietnam,ndvi,nbr,cloud removal
